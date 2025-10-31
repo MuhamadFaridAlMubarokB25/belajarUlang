@@ -41,3 +41,6 @@ print('''Total UKT Adalah Rp. 6.000.000, Silahkan Pilih Opsi Pembayaran
 +----+-----------------+------------+''')
 
 pilih = int(input('Pilih Opsi Pembayaran (1- 4): '))
+
+if pilih == 1:
+    print('')

@@ -23,11 +23,13 @@ totalpecel = harga + pecel
 totalmie = harga + mie
 totalnasi = harga + nasi
 
-print(f'\n{nama} dengan NIM {nim} ingin membeli makanan seharga (Rp inputan Harga makanan)')
-
+print(f'\n{nama} dengan NIM {nim} ingin membeli makanan seharga {harga}')
+print()
 print(f'Jika dia membeli pecel lele, maka ia harus membayar {totalpecel} setelah mendapat pajak 5%.')
 print(f'Jika dia membeli mie ayam, maka ia harus membayar {totalmie} setelah mendapat pajak 8%.')
 print(f'Jika dia membeli nasi padang ia harus membayar Rp {totalnasi} setelah mendapat pajak 10%.')
+
+# It was hard at first
 
 
 
